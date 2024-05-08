@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Cegamer.github.io/Programacion2-Web-Resisafe",
+  "homepage": "http://Cegamer.github.io/resisafeWeb",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@testing-library/jest-dom": "^5.17.0",
