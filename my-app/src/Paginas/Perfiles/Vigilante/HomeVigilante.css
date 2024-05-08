@@ -1,0 +1,93 @@
+.Principal-container {
+    width: 100%;
+    padding: 30px 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - var(--navbar-height)); 
+    background: url('../../../Components/Assets/fondo.png') no-repeat;
+    background-position: bottom; 
+    background-size: contain;
+}
+
+
+.Info-container, .Funcion-container {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%; 
+    max-width: 400px; 
+}
+
+.Info-container {
+    top: calc(var(--navbar-height) + 20px);
+    left: 20px;
+}
+
+.Funcion-container {
+    top: calc(var(--navbar-height) + 200px); /* Ajusta la posición debajo del primer contenedor */
+    left: 20px; /* Ajusta la distancia desde la izquierda */
+}
+
+.Funciones {
+    color: #7B68EE;
+    text-align: center; /* Centra el texto horizontalmente */
+    flex-direction: column;
+}
+
+.Funciones button {
+    width: 110%; 
+    max-width: 250px; /* Ancho máximo del botón */
+    height: 45px;
+    background: #62CCF9;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    display: block;
+    margin-top: 15px;
+}
+.Vista-container {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 1000px; 
+    height: 765px;
+    right: 100px; /* Distancia desde el borde derecho */
+    top: calc(50% - 250px - 125px); 
+}
+
+@media screen and (min-width: 768px) {
+
+    .Info-container, .Funcion-container {
+        padding: 30px 20px; 
+        width: 40%; /* Ajusta el ancho del contenedor para pantallas más grandes */
+    }
+}
+
+
+

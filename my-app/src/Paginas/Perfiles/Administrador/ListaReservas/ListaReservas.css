@@ -1,0 +1,36 @@
+/* ListaReservas.css */
+
+.reserva-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .reserva-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .reserva-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .reserva-item button {
+    padding: 8px 16px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reserva-item button:hover {
+    background-color: #e64a19;
+  }
+  

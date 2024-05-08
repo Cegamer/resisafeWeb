@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600; 1.700&display=intercambio');
+
+*{
+  padding: 0;
+  margin:0 ;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+:root{
+  --mainColor:#6284F9;
+  --mainColorLigth: #62CCF9;
+  --secondaryColor: #DB2B39;
+  --mainTwoColor: white;
+  --textColor:black;
+
+}
+.headerDiv{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  height: var(--navbar-height);
+  padding: 10px 30px;
+  background-color: var(--mainTwoColor);
+  color: var(--textColor);
+  
+}
+h3{
+  color: var(--mainColor);
+
+}
+ .Container-Logo{
+  background: url('../Assets/logo_resi.png') no-repeat; ; 
+  width: 50px;
+  height: 50px;
+  background-size: contain; 
+  background-position: center;
+}
+
+nav a{
+  margin: 0 2rem;
+  color:var(--textColor);
+  text-decoration: none;
+}
+nav a:hoder{
+  color:var(--secondaryColor);
+
+}
+
+nav {
+  position: fixed;
+  top: var(--navbar-height);
+  right: 0; 
+  height: 100%;
+  width: 25vw;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: linear-gradient(to bottom right, blue, purple);  
+  transition: 1s;
+}
+
+
+.nav-btn {
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  font-size: 20px; 
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  transform: scale(1.1);
+}
+
+nav .nav-close-btn{
+  position: absolute;
+  top:2rem;
+  right: 2rem;
+}
+
+

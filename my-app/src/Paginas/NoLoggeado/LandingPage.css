@@ -1,0 +1,171 @@
+.landing-page-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 2px;
+}
+.presentacionContainer{
+    background-image: url("https://media1.amarilo.com.co/website/s3fs-public/2024-03/Fachada_Coral_Web_.webp");
+    min-height: 100dvh;
+    min-width: 100dvw;
+    background-size: cover;
+    align-content: center;
+    position: relative;
+    top: -8.4vh;
+    left: -1dvw;
+
+
+}
+
+.sombra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.61); /* Fondo negro con transparencia */
+    backdrop-filter: blur(7px); /* Desenfoque */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ContenedorTextoPrincipal {
+    text-align: center;
+    color: white; /* Color del texto */
+  }
+
+.ContenedorTextoPrincipal > h2 {
+
+    font-size: 5em;
+    color: #FFFFFF;
+
+}
+.ContenedorTextoPrincipal > h2 > b {
+    color: #00C2FF;
+
+}
+.ContenedorTextoPrincipal > h1 {
+    color:#ccb0fa; 
+    font-size: 3em;
+    margin-bottom: 2vh;
+}
+
+.ContenedorTextoPrincipal > button,.botonIngreso{
+    background-color: #00FF75;
+    padding: 20px;
+    margin: 1vh;
+    font-size: 2em;
+    border-radius: 1em;
+    border: 0;
+    font-weight: bolder;
+    color:#013F00 ;
+    
+  }
+  .botonIngreso{
+    background-color: #00C2FF ;
+    color: #3E2DA1;
+  }
+  
+  /* Efecto hover */
+.ContenedorTextoPrincipal > button:hover  {
+    background-color: #00e681;
+    color: #011f00;
+  }
+  .botonIngreso:hover{
+    background-color: #0696c2 ;
+    color: #5640d4;
+  }
+  
+
+  
+.titulo{
+    margin: 10vh;
+    text-align: center;
+    font-size: 4.5em;
+}
+/*TARJETAS*/
+.perfilesContainer {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+.cardContainer{
+    padding: 20px;
+
+    background-color: CFDFFF;
+    border-radius: 10px;
+    box-shadow: 0 0px 18px rgba(0, 0, 0, 0.247);
+    text-align: center;
+    transition: transform 0.3s ease;
+    font-size: 3em;
+}
+.containerProfileCards{
+    margin-bottom: 13vh;
+}
+
+hr{
+    border: 2px solid #00C2FF;
+    border-radius: 5px;
+    width: 90%;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+  
+
+/*Información*/
+.fade {
+    width: 100%;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-width: 100%;
+    box-shadow: none !important;
+    
+  }
+  
+  .containerTexto {
+    flex-basis: 45%;
+padding: 10vh;
+  }
+
+ h3 {
+    margin-top: 0;
+    font-size: 6vh;
+  }
+
+  .container > div > ul {
+    padding: 20px;
+    font-size: 3vh;
+
+  }
+
+  .container > div > ul > li > p {
+    margin: 5px 0;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+
+  .imagen {
+
+    max-width: 30vw;
+    height: auto;
+
+  }

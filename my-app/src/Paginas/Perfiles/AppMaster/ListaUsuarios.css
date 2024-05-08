@@ -1,0 +1,30 @@
+.contenedorLista{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    padding: 20px 0;
+}
+.Zonas {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 30px; 
+  }
+.ZonasC{
+    color:#7B68EE;
+    position: relative; 
+    left: 30px; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 50px;
+}
+@media (max-width:700px){
+    .contenedorLista{       
+        grid-template-columns: 1fr;   
+    }
+    .ZonasC{
+        font-size: 20px;
+    }
+}

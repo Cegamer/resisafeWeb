@@ -1,0 +1,10 @@
+import fondoRefisafe from './fondo.png'
+import logoResisafe from './logo_resi.png'
+import administrador from './administrador.png'
+import app_master from './app_master.png'
+import residente from './residente.png'
+import vigilante from './vigilante.png'
+import adminLanding from './adminLanding.jpg'
+import residenteLanding from './residenteLanding.jpg'
+import vigilanteLanding from './vigilanteLanding.avif'
+export {fondoRefisafe, logoResisafe, administrador, app_master, residente, vigilante,adminLanding,residenteLanding,vigilanteLanding}

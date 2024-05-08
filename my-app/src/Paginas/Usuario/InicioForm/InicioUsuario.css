@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.Inicio-container{
+    width: 100%;
+    padding: 30px 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
+
+    background: url('../../../Components/Assets/fondo.png') no-repeat; 
+    background-position: bottom;
+    background-size: contain;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Selecciona{
+    width: 100%;
+    color:#7B68EE;
+    /* position: relative;  */
+    text-align: center; 
+    margin-top: 20px;
+    
+}
+
+.Cerrar{
+    width: 100px;
+    height: 45px;
+    background: #7B68EE;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0, 0, .1);
+    cursor: pointer;
+    color:white;
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.Contenedor-perfiles{
+    
+    width: 100%;
+
+    padding: 0 100px;
+
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+@media (max-width: 700px) {
+    .Contenedor-perfiles{
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+}

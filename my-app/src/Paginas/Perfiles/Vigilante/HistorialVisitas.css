@@ -1,0 +1,37 @@
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #7b68ee;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #62ccf9;
+}
+
+/* Estilos adicionales para la lista */
+.lista {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.fecha {
+  flex-basis: 30%;
+}
+
+.estado {
+  flex-basis: 30%;
+}
+
+.ingresado-por {
+  flex-basis: 30%;
+}  

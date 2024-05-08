@@ -1,0 +1,15 @@
+.boton-guardar {
+  padding: 10px 40px;
+  background-color: #007bff; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block; /* Cambiado a bloque para ocupar el ancho del contenedor */
+  margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontal */
+}
+
+.boton-guardar:hover {
+  background-color: #7b68ee; /* Azul más oscuro al pasar el ratón */
+}
+

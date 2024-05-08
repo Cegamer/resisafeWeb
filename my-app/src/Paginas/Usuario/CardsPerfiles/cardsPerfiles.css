@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.Cartas {
+    box-sizing: border-box;
+
+    width: 100%; 
+    min-width: 200px;
+    height: 300px; 
+
+    position: relative; 
+    border: 1px solid #ccc;
+
+    border-radius: 20px;
+    padding: 20px; 
+    background-color: #fff;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden; 
+}
+
+/* Nombre del perfil */
+.NombrePerfil{
+    color:#9E8FF5;
+    font-size: 18px; /* Tamaño de fuente para el nombre del perfil */
+    text-align: center; /* Centrar el texto horizontalmente */
+    position: absolute; /* Posicionamiento absoluto para ajustar al contenedor de la carta */
+    bottom: 5px; /* Colocación desde la parte inferior */
+    left: 0; /* Alinear a la izquierda */
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 0 20px; /* Agregar relleno horizontal para evitar que el texto toque los bordes */
+}
+
+/* Información */
+.Informacion{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Permite que el contenido se expanda para llenar el espacio disponible */
+}
+
+/* Imagen del perfil */
+.Imagen-perfil{
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    transition: all 0.2s ease;
+}
+
+/* Efecto hover */
+.Cartas:hover .Imagen-perfil{
+    transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+    .NombrePerfil{
+        font-size: 16px; /* Tamaño de fuente para el nombre del perfil */
+    }
+}
+
