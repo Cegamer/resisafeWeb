@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Programacion2-Web-Resisafe/static/css/main.271d8ec7.css",
+    "main.js": "/Programacion2-Web-Resisafe/static/js/main.e9d2d24a.js",
+    "static/js/453.32ec0147.chunk.js": "/Programacion2-Web-Resisafe/static/js/453.32ec0147.chunk.js",
+    "static/media/adminLanding.jpg": "/Programacion2-Web-Resisafe/static/media/adminLanding.780b99df89b45fdd4831.jpg",
+    "static/media/fondo.png": "/Programacion2-Web-Resisafe/static/media/fondo.5fbfb3ffff8a3223231e.png",
+    "static/media/logo_resi.png": "/Programacion2-Web-Resisafe/static/media/logo_resi.5f3d5cb63e0367720e2a.png",
+    "static/media/vigilante.png": "/Programacion2-Web-Resisafe/static/media/vigilante.09de3e61f8b6502bdfed.png",
+    "static/media/administrador.png": "/Programacion2-Web-Resisafe/static/media/administrador.b0e645b6e283e087a04e.png",
+    "static/media/residenteLanding.jpg": "/Programacion2-Web-Resisafe/static/media/residenteLanding.8aba712e2f36591c9d4c.jpg",
+    "static/media/residente.png": "/Programacion2-Web-Resisafe/static/media/residente.af0dd38938af70673c3c.png",
+    "static/media/app_master.png": "/Programacion2-Web-Resisafe/static/media/app_master.143198cd142bfee00b69.png",
+    "static/media/vigilanteLanding.avif": "/Programacion2-Web-Resisafe/static/media/vigilanteLanding.474633a52ec14200f285.avif",
+    "index.html": "/Programacion2-Web-Resisafe/index.html",
+    "main.271d8ec7.css.map": "/Programacion2-Web-Resisafe/static/css/main.271d8ec7.css.map",
+    "main.e9d2d24a.js.map": "/Programacion2-Web-Resisafe/static/js/main.e9d2d24a.js.map",
+    "453.32ec0147.chunk.js.map": "/Programacion2-Web-Resisafe/static/js/453.32ec0147.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.271d8ec7.css",
+    "static/js/main.e9d2d24a.js"
+  ]
+}
